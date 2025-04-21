@@ -38,6 +38,16 @@
     <img width="300" alt="image" src="apikey.png">
 </p>
 
+4. Fill your account in accounts.js
+   ```bash
+   [
+    {
+        "email": "email@example.com",
+        "password": "1234"
+    }
+   ]
+   ```
+
 ## How to use
 1. Run the main script:
    ```bash
