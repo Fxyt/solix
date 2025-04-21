@@ -1,24 +1,20 @@
-### Solix Auto Bot
+# Solix Auto Bot
+<img width="513" alt="image" src="menu.png">
 
-Solix Auto Bot adalah sebuah script otomatisasi untuk melakukan berbagai tugas di platform SolixDepin, seperti registrasi, login, menyelesaikan tugas, dan mining.
+Solix Auto Bot is an automation script to perform various tasks on the SolixDepin platform, such as registration, login, completing tasks, and mining.
 
-## Fitur
-1. **Register & Refferer**: Mendaftarkan akun baru dengan refferer.
-2. **Login & Clear Task**: Login ke akun dan menyelesaikan tugas yang tersedia.
-3. **Mining**: Melakukan mining otomatis untuk mendapatkan poin.
-4. **Captcha Solver**: Menggunakan API untuk menyelesaikan captcha secara otomatis.
-5. **Batch Processing**: Memproses beberapa akun sekaligus dalam batch.
+## Features
+1. **Register & Referer**: Register a new account with a referrer.
+2. **Login & Clear Task**: Login to your account and complete available tasks.
+3. **Mining**: Perform automatic mining to earn points.
+4. **Captcha Solver**: Use API to solve captchas automatically.
+5. **Batch Processing**: Process multiple accounts at once in batches.
 
-## Persyaratan
-- Python 3.8 atau lebih baru
-- Library Python:
-  - `requests`
-  - `aiohttp`
-  - `loguru`
-  - `asyncio`
+## Requirements
+- Python 3.8 or latest
 
 ## Instalasi
-1. Clone repository ini:
+1. Clone this repository:
    ```bash
    git clone https://github.com/username/solix-auto-bot.git
    cd solix-auto-bot
