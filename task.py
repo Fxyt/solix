@@ -63,5 +63,5 @@ def run():
         token = login(email,password)
         print(f'email: {email} | point {get_point(token)}')
         task(token)
-        time.sleep(5)
+        time.sleep(30)
 
