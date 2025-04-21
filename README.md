@@ -1,14 +1,18 @@
 # Solix Auto Bot
-<img width="513" alt="image" src="image2.png">
+<img width="513" alt="image" src="image.png">
 
 Solix Auto Bot is an automation script to perform various tasks on the SolixDepin platform, such as registration, login, completing tasks, and mining.
+
+## Description
+**Support Multi Account**
+- Register here : [https://hanafuda.hana.network/dashboard](https://dashboard.solixdepin.net/sign-up?ref=Y2R7vGC3)
 
 ## Features
 1. **Register & Referer**: Register a new account with a referrer.
 2. **Login & Clear Task**: Login to your account and complete available tasks.
 3. **Mining**: Perform automatic mining to earn points.
 4. **Captcha Solver**: Use API to solve captchas automatically.
-5. **Batch Processing**: Process multiple accounts at once in batches.
+5. **Batch Processing**: Process multiple accounts at once in batches using asynchronous programming.
 
 ## Requirements
 - Python 3.8 or latest
@@ -16,8 +20,8 @@ Solix Auto Bot is an automation script to perform various tasks on the SolixDepi
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/solix-auto-bot.git
-   cd solix-auto-bot
+   git clone https://github.com/Fxyt/solix.git
+   cd solix
    ```
 
 2. Install dependencies:
@@ -26,6 +30,9 @@ Solix Auto Bot is an automation script to perform various tasks on the SolixDepi
    ```
 
 3. Create an `apikey.txt` file in the root directory and enter the captcha solver API key from @Xevil_check_bot on telegram:
+   ```bash
+   @Xevil_check_bot
+   ```
 <img width="513" alt="image" src="apikey.png">
 
 ## How to use
@@ -33,30 +40,31 @@ Solix Auto Bot is an automation script to perform various tasks on the SolixDepi
    ```bash
    python bot.py
    ```
+   if in VPS or Linux:
+   ```bash
+   python3 bot.py
+   ```
 
-2. Select the available menu:
-   - `1`: Register & Refferer
-   - `2`: Login & Clear Task
-   - `3`: Mining
-   - `4`: Exit
+3. Select the available menu:
+<img width="513" alt="image" src="menu.png">
 
-3. Ikuti instruksi yang muncul di terminal.
+4. Follow the instructions that appear in the terminal.
 
-## Catatan
-- Pastikan API key yang digunakan valid dan memiliki cukup saldo untuk menyelesaikan captcha.
-- Gunakan script ini dengan bijak dan sesuai dengan kebijakan platform SolixDepin.
+## Note
+- Make sure the API key used is valid and has enough balance to solve the captcha.
+- Use this script wisely and in accordance with the SolixDepin platform policy.
 
-## Lisensi
-Script ini dilisensikan di bawah [MIT License](LICENSE).
+## License
+This script is licensed under the [MIT License](LICENSE).
 ```
 
-### Penjelasan:
-1. **Fitur**: Menjelaskan fitur utama dari script.
-2. **Persyaratan**: Menyebutkan versi Python dan library yang dibutuhkan.
-3. **Instalasi**: Memberikan langkah-langkah instalasi dan konfigurasi.
-4. **Cara Penggunaan**: Menjelaskan cara menjalankan script dan menggunakan menu.
-5. **Struktur Proyek**: Memberikan gambaran tentang file dan folder di proyek.
-6. **Catatan**: Memberikan peringatan atau informasi tambahan.
-7. **Lisensi**: Menyebutkan lisensi proyek (opsional, bisa diubah sesuai kebutuhan).
+### Explanation:
+1. **Features**: Describes the main features of the script.
+2. **Requirements**: Mentions the Python version and required libraries.
+3. **Installation**: Provides installation and configuration steps.
+4. **How ​​to Use**: Describes how to run the script and use the menus.
+5. **Project Structure**: Provides an overview of the files and folders in the project.
+6. **Notes**: Provides warnings or additional information.
+7. **License**: Mentions the project license (optional, can be changed as needed).
 
-Simpan file ini sebagai `README.md` di root direktori proyek lu. Kalau ada yang mau ditambahin atau diubah, kabarin aja, bro! ✌️
+Save this file as `README.md` in the root of your project directory. If there is anything you want to add or change, just let me know, bro! ✌️
