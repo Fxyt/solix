@@ -1,6 +1,7 @@
 import requests
 import json
 from modul import *
+import time
 
 def login(email,password):
     url = 'https://api.solixdepin.net/api/auth/login-password'
@@ -62,4 +63,5 @@ def run():
         token = login(email,password)
         print(f'email: {email} | point {get_point(token)}')
         task(token)
+        time.sleep(5)
 
