@@ -1,11 +1,11 @@
 # Solix Auto Bot
-<img width="513" alt="image" src="image.png">
-
-Solix Auto Bot is an automation script to perform various tasks on the SolixDepin platform, such as registration, login, completing tasks, and mining.
+<p align="center">
+    <img width="513" alt="image" src="image.png">
+</p>
 
 ## Description
-**Support Multi Account**
-- Register here : [https://hanafuda.hana.network/dashboard](https://dashboard.solixdepin.net/sign-up?ref=Y2R7vGC3)
+**Solix Auto Bot is an automation script to perform various tasks on the SolixDepin platform, such as registration, login, completing tasks, and mining.**
+- Register : [HERE](https://dashboard.solixdepin.net/sign-up?ref=Y2R7vGC3)
 
 ## Features
 1. **Register & Referer**: Register a new account with a referrer.
@@ -33,7 +33,9 @@ Solix Auto Bot is an automation script to perform various tasks on the SolixDepi
    ```bash
    @Xevil_check_bot
    ```
-<img width="513" alt="image" src="apikey.png">
+<p align="center">
+    <img width="300" alt="image" src="apikey.png">
+</p>
 
 ## How to use
 1. Run the main script:
@@ -46,7 +48,9 @@ Solix Auto Bot is an automation script to perform various tasks on the SolixDepi
    ```
 
 3. Select the available menu:
-<img width="513" alt="image" src="menu.png">
+<p align="center">
+    <img width="513" alt="image" src="menu.png">
+</p>
 
 4. Follow the instructions that appear in the terminal.
 
