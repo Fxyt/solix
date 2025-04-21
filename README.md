@@ -1,5 +1,5 @@
 # Solix Auto Bot
-<img width="513" alt="image" src="menu.png">
+<img width="513" alt="image" src="image2.png">
 
 Solix Auto Bot is an automation script to perform various tasks on the SolixDepin platform, such as registration, login, completing tasks, and mining.
 
@@ -13,7 +13,7 @@ Solix Auto Bot is an automation script to perform various tasks on the SolixDepi
 ## Requirements
 - Python 3.8 or latest
 
-## Instalasi
+## Installation
 1. Clone this repository:
    ```bash
    git clone https://github.com/username/solix-auto-bot.git
@@ -25,23 +25,16 @@ Solix Auto Bot is an automation script to perform various tasks on the SolixDepi
    pip install -r requirements.txt
    ```
 
-3. Buat file `apikey.txt` di direktori utama dan masukkan API key captcha solver dari @Xevil_check_bot di telegram:
-   ```bash
-   @Xevil_check_bot
-   ```
+3. Create an `apikey.txt` file in the root directory and enter the captcha solver API key from @Xevil_check_bot on telegram:
+<img width="513" alt="image" src="apikey.png">
 
-4. buat :
-   ```env
-   APIKEY=KKnD5f2tD1TkF1PrHKmsYb8rJilRdyAf
-   ```
-
-## Cara Penggunaan
-1. Jalankan script utama:
+## How to use
+1. Run the main script:
    ```bash
    python bot.py
    ```
 
-2. Pilih menu yang tersedia:
+2. Select the available menu:
    - `1`: Register & Refferer
    - `2`: Login & Clear Task
    - `3`: Mining
