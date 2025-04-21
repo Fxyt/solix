@@ -1,7 +1,4 @@
-Berikut adalah contoh file `README.md` yang bisa lu gunakan untuk di-upload ke GitHub:
-
-```markdown
-# Solix Auto Bot
+### Solix Auto Bot
 
 Solix Auto Bot adalah sebuah script otomatisasi untuk melakukan berbagai tugas di platform SolixDepin, seperti registrasi, login, menyelesaikan tugas, dan mining.
 
