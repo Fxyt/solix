@@ -13,6 +13,7 @@
 3. **Mining**: Perform automatic mining to earn points.
 4. **Captcha Solver**: Use API to solve captchas automatically.
 5. **Batch Processing**: Process multiple accounts at once in batches using asynchronous programming.
+6. **Bypass**: Free bypass turnstile captcha using free apikey
 
 ## Requirements
 - Python 3.8 or latest
@@ -29,7 +30,7 @@
    pip install -r requirements.txt
    ```
 
-3. Create an `apikey.txt` file in the root directory and enter the captcha solver API key from @Xevil_check_bot on telegram:
+3. Create an `apikey.txt` file and fill API key from @Xevil_check_bot on telegram:
    ```bash
    @Xevil_check_bot
    ```
