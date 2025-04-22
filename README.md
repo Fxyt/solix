@@ -21,7 +21,7 @@
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Fxyt/solix.git
+   git clone https://github.com/realfx24/solix.git
    cd solix
    ```
 
